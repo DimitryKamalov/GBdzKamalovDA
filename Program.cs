@@ -20,4 +20,15 @@ class Program
         string[] newArr = new string[n];
         int count = 0;
         
+         // цикл для проверки длины строк
+        for (int i = 0; i < arr.Length; i++)
+        {
+            // если длина строки меньше или равна 3 символам
+            if (arr[i].Length <= 3)
+            {
+                // добавить строку в новый массив
+                newArr[count] = arr[i];
+                count++;
+            }
+        }
 }
