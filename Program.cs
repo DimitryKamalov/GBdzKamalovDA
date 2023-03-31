@@ -15,5 +15,9 @@ class Program
             Console.Write($"Введите {i + 1}-й элемент массива: ");
             arr[i] = Console.ReadLine();
         }
+
+        // объявление нового массива
+        string[] newArr = new string[n];
+        int count = 0;
         
 }
