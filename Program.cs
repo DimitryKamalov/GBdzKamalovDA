@@ -31,4 +31,13 @@ class Program
                 count++;
             }
         }
+
+         // вывод нового массива на экран
+        Console.WriteLine($"Элементов в новом массиве: {count}");
+        Console.WriteLine("Новый массив:");
+        for (int i = 0; i < count; i++)
+        {
+            Console.WriteLine(newArr[i]);
+        }
+    }
 }
