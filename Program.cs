@@ -9,5 +9,11 @@ class Program
         int n = int.Parse(Console.ReadLine());
         string[] arr = new string[n];
 
+        // задание элементов массива
+        for (int i = 0; i < arr.Length; i++)
+        {
+            Console.Write($"Введите {i + 1}-й элемент массива: ");
+            arr[i] = Console.ReadLine();
+        }
         
 }
